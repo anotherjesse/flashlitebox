@@ -1,13 +1,10 @@
 class Arrows extends MovieClip {
-
   function onLoad() {
-    var EventListener = {};
-    EventListener.onFullScreen = function( full ){
-      if (!full) {
-        _root.image.removeMovieClip();
+    Stage.addListener({
+      onFullScreen: function(full) {
+        if (!full) _root.image.removeMovieClip();
       }
-    }
-    Stage.addListener(EventListener);
+    });
   }
 
   function onRelease() {
