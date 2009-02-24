@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<movie framerate="15" height="16" version="8" width="16">
+  <clip import="src/classes.swf"/>
+  <background color="Black"/>
+  <frame>
+    <library>
+      <clip class="Application" id="Application" />
+      <clip class="Arrows" id="arrows" import="src/maximize.png" />
+    </library>
+    <place y="0" x="0" depth="1" id="Application"/>
+  </frame>
+</movie>
