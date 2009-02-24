@@ -1,11 +1,10 @@
 <movie>
-  <clip import="classes.swf"/>
-  <background color="Black"/>
+  <clip import="classes.swf" />
+  <background color="Black" />
   <frame>
     <library>
-      <clip class="Application" id="Application" />
       <clip class="Arrows" id="arrows" import="src/maximize.png" />
     </library>
-    <place id="Application"/>
+    <place id="arrows" />
   </frame>
 </movie>
